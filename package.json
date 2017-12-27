@@ -1,14 +1,15 @@
 {
   "name": "nodejs",
   "version": "1.0.0",
-  "description": "Desktop Notifier to ensure you keep drinking water every 2 hours",
+  "description":
+    "Desktop Notifier to ensure you keep drinking water every 2 hours",
   "main": "thirsty.js",
   "scripts": {
     "start": "pm2 start thirsty.js",
     "startup": "pm2 startup",
     "delete": "pm2 delete thirsty.js"
   },
-  "author": "Akshay Kadam <akshaykadam0904@gmail.com> (http://deadcoder0904.github.io/)",
+  "author": "Akshay Kadam <akshaykadam0904@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "is-linux": "^1.0.1",
