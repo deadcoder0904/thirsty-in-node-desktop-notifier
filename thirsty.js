@@ -2,7 +2,7 @@ const schedule = require("node-schedule");
 const notifier = require("node-notifier");
 const isLinux = require("is-linux");
 
-schedule.scheduleJob("*/1 * * * *", function() {
+schedule.scheduleJob("* */2 * * *", function() {
 	if (isLinux()) {
 		notifier.notify({
 			title: "DRINK WATER",
