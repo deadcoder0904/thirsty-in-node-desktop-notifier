@@ -15,11 +15,12 @@ schedule.scheduleJob("*/1 * * * *", function() {
 		{
 			title: "DRINK WATER",
 			message: "Did you Drink 🍹 Water 🚰 ❓",
+			closeLabel: 'Absolutely not',
 			actions: trueAnswer
 		},
 		function(err, response, metadata) {
 			if (err) throw err;
-			if (metadata.activationValue !== trueAnswer) {
+			if (metadata.activationValue === trueAnswer) {
 				notifier.notify({
 					title: "DRINK WATER",
 					message: "Then let's code, Champ 😉 !!"

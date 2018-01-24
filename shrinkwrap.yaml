@@ -1,8 +1,8 @@
 dependencies:
   is-linux: 1.0.1
-  node-notifier: 5.1.2
-  node-schedule: 1.2.5
-  pm2: 2.9.1
+  node-notifier: 5.2.1
+  node-schedule: 1.3.0
+  pm2: 2.9.3
 packages:
   /amp-message/0.1.2:
     dependencies:
@@ -65,7 +65,7 @@ packages:
       integrity: sha1-GdOGodntxufByF04iu28xW0zYC0=
   /async-listener/0.6.9:
     dependencies:
-      semver: 5.4.1
+      semver: 5.5.0
       shimmer: 1.2.0
     dev: false
     engines:
@@ -608,23 +608,23 @@ packages:
       node: '>= 0.10.x'
     resolution:
       integrity: sha1-9SpYWJchIWGOAC+OY4TK2sItYk8=
-  /node-notifier/5.1.2:
+  /node-notifier/5.2.1:
     dependencies:
       growly: 1.3.0
-      semver: 5.4.1
+      semver: 5.5.0
       shellwords: 0.1.1
       which: 1.3.0
     dev: false
     resolution:
-      integrity: sha1-L6nhJgX6EACdRFSdb82KY93g5P8=
-  /node-schedule/1.2.5:
+      integrity: sha512-MIBs+AAd6dJ2SklbbE8RUDRlIVhU8MaNLh1A9SUZDUHPiZkWLFde6UNwG41yQHZEToHgJMXqyVZ9UcS/ReOVTg==
+  /node-schedule/1.3.0:
     dependencies:
       cron-parser: 2.4.3
       long-timeout: 0.1.1
-      sorted-array-functions: 1.0.0
+      sorted-array-functions: 1.1.0
     dev: false
     resolution:
-      integrity: sha512-15EhURVgJz1kIms3H6rKcOOcZGSaHGCwB6mTRUBWZnpv4OPbX6e01OTPeSzx0W+f5Hx7iWafmk17+PyhD9fejg==
+      integrity: sha512-NNwO9SUPjBwFmPh3vXiPVEhJLn4uqYmZYvJV358SRGM06BR4UoIqxJpeJwDDXB6atULsgQA97MfD1zMd5xsu+A==
   /normalize-path/2.1.1:
     dependencies:
       remove-trailing-separator: 1.1.0
@@ -719,7 +719,7 @@ packages:
     dev: false
     resolution:
       integrity: sha1-Gh5VFT1BoFU0zqI8/oYKuqDrSs4=
-  /pm2/2.9.1:
+  /pm2/2.9.3:
     dependencies:
       async: 2.6.0
       blessed: 0.1.81
@@ -740,12 +740,13 @@ packages:
       pm2-axon-rpc: 0.5.0
       pm2-deploy: 0.3.9
       pm2-multimeter: 0.1.2
-      pmx: 1.5.5
+      pmx: 1.5.6
       promptly: 2.2.0
-      semver: 5.4.1
+      semver: 5.5.0
       shelljs: 0.7.8
-      source-map-support: 0.5.0
+      source-map-support: 0.5.2
       sprintf-js: 1.1.1
+      v8-compile-cache: 1.1.2
       vizion: 0.2.13
       yamljs: 0.3.0
     dev: false
@@ -754,15 +755,15 @@ packages:
     optionalDependencies:
       gkt: tgz.pm2.io/gkt-1.0.0
     resolution:
-      integrity: sha512-y6Wwo/jdBxIWPzZQFmuwxsrCG4nhaq+yEArULMDD8N68q/FErvMgn25P5CmzoYz/ZeT7lIyU1gHTdx3uNFF1VA==
-  /pmx/1.5.5:
+      integrity: sha512-W4DX0COPQWAa60ewKU2Sua4Lv++rXJ4nUL5p0eX22mesElVxbYcBFOIf6FcEiDfevqhPoaPhZiq4jSa47A2/eQ==
+  /pmx/1.5.6:
     dependencies:
       debug: 3.1.0
       json-stringify-safe: 5.0.1
       vxx: 1.2.2
     dev: false
     resolution:
-      integrity: sha1-tuC4V27c9Y1/QGlntE2z2nfjV/A=
+      integrity: sha512-IULbeRQH2us4qHZNIhc3Ra8P006hQ5/cNS8VHtpcEZsObOaHpdynM0SM9uwUE/QjA57d86umlvIdvSTz+3waFQ==
   /preserve/0.2.0:
     dev: false
     engines:
@@ -861,10 +862,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-kKvNJn6Mm93gAczWVJg7wH+wGYWNrDHdWvpUmHyEsgCtIwwo3bqPtV4tR5tuPaUhTOo/kvhVwd8XwwOllGYkbg==
-  /semver/5.4.1:
+  /semver/5.5.0:
     dev: false
     resolution:
-      integrity: sha512-WfG/X9+oATh81XtllIo/I8gOiY9EXRdv1cQdyykeXK17YcUW3EXUAi2To4pcH6nZtJPr7ZOpM5OMyWJZm+8Rsg==
+      integrity: sha512-4SJ3dm0WAwWy/NVeioZh5AntkdJoWKxHxcmyP622fOkgHa4z3R0TdBJICINyaSDE6uNwVc8gZr+ZinwZAH4xIA==
   /set-immediate-shim/1.0.1:
     dev: false
     engines:
@@ -889,16 +890,16 @@ packages:
     dev: false
     resolution:
       integrity: sha512-xTCx2vohXC2EWWDqY/zb4+5Mu28D+HYNSOuFzsyRDRvI/e1ICb69afwaUwfjr+25ZXldbOLyp+iDUZHq8UnTag==
-  /sorted-array-functions/1.0.0:
+  /sorted-array-functions/1.1.0:
     dev: false
     resolution:
-      integrity: sha1-wLVU2ecJr/y+VtNMGyUUGX/Tgnk=
-  /source-map-support/0.5.0:
+      integrity: sha512-zq6fLdGQixb9VZfT/tLgU+LzoedJyTbcf1I/TKETFeUVoWIfcs5HNr+SJSvQJLXRlEZjB1gpILTrxamxAdCcgA==
+  /source-map-support/0.5.2:
     dependencies:
       source-map: 0.6.1
     dev: false
     resolution:
-      integrity: sha512-vUoN3I7fHQe0R/SJLKRdKYuEdRGogsviXFkHHo17AWaTGv17VLnxw+CFXvqy+y4ORZ3doWLQcxRYfwKrsd/H7Q==
+      integrity: sha512-9zHceZbQwERaMK1MiFguvx1dL9GQPLXInr2D/wUxAsuV6ZKc9F0DHYWeloMcalkYRbtanwqUakoDjvj55cL/4A==
   /source-map/0.6.1:
     dev: false
     engines:
@@ -943,10 +944,14 @@ packages:
     dev: false
     resolution:
       integrity: sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
-  /uuid/3.1.0:
+  /uuid/3.2.1:
     dev: false
     resolution:
-      integrity: sha512-DIWtzUkw04M4k3bf1IcpS2tngXEL26YUD2M0tMDUpnUrz2hgzUBlD55a4FjdLGPvfHxS6uluGWvaVEqgBcVa+g==
+      integrity: sha512-jZnMwlb9Iku/O3smGWvZhauCf6cvvpKi4BKRiliS3cxnI+Gz9j5MEpTz2UFuXiKPJocb7gnsLHwiS05ige5BEA==
+  /v8-compile-cache/1.1.2:
+    dev: false
+    resolution:
+      integrity: sha512-ejdrifsIydN1XDH7EuR2hn8ZrkRKUYF7tUcBjBy/lhrCvs2K+zRlbW9UHc0IQ9RsYFZJFqJrieoIHfkCa0DBRA==
   /vizion/0.2.13:
     dependencies:
       async: 1.5.2
@@ -965,9 +970,9 @@ packages:
       lodash.isequal: 4.5.0
       lodash.merge: 4.6.0
       methods: 1.1.2
-      semver: 5.4.1
+      semver: 5.5.0
       shimmer: 1.2.0
-      uuid: 3.1.0
+      uuid: 3.2.1
     dev: false
     engines:
       node: '>=0.12'
@@ -1001,6 +1006,6 @@ shrinkwrapMinorVersion: 4
 shrinkwrapVersion: 3
 specifiers:
   is-linux: ^1.0.1
-  node-notifier: ^5.1.2
-  node-schedule: ^1.2.1
-  pm2: ^2.4.6
+  node-notifier: ^5.2.1
+  node-schedule: ^1.3.0
+  pm2: ^2.9.3

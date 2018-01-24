@@ -1,8 +1,7 @@
 {
   "name": "nodejs",
   "version": "1.0.0",
-  "description":
-    "Desktop Notifier to ensure you keep drinking water every 2 hours",
+  "description": "Desktop Notifier to ensure you keep drinking water every 2 hours",
   "main": "thirsty.js",
   "scripts": {
     "start": "pm2 start thirsty.js",
@@ -13,9 +12,9 @@
   "license": "MIT",
   "dependencies": {
     "is-linux": "^1.0.1",
-    "node-notifier": "^5.1.2",
-    "node-schedule": "^1.2.1",
-    "pm2": "^2.4.6"
+    "node-notifier": "^5.2.1",
+    "node-schedule": "^1.3.0",
+    "pm2": "^2.9.3"
   },
   "devDependencies": {}
 }
